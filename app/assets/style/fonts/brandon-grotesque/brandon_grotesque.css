@@ -1,0 +1,44 @@
+/*{"c":"2015-09-16T23:35:37Z","s":"prod-origin-8ff1ab23","v":"c59e87"}*/
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * brandon-grotesque:
+ *   - http://typekit.com/eulas/0000000000000000000132db
+ *   - http://typekit.com/eulas/0000000000000000000132dd
+ *   - http://typekit.com/eulas/0000000000000000000132df
+ *   - http://typekit.com/eulas/0000000000000000000132e3
+ * macha:
+ *   - http://typekit.com/eulas/000000000000000000014345
+ *   - http://typekit.com/eulas/000000000000000000014342
+ *   - http://typekit.com/eulas/000000000000000000014344
+ *   - http://typekit.com/eulas/000000000000000000014348
+ *
+ * (c) 2009-2015 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url(Brandon_thin.otf);
+font-style:normal;font-weight:100;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url(Brandon_light.otf);
+font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url(Brandon_reg.otf);
+font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"brandon-grotesque";
+src:url(Brandon_med.otf);
+font-style:normal;font-weight:700;
+}
