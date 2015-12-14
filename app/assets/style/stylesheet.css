@@ -634,7 +634,6 @@ ul{
 	margin:0 40px;
 	width:71px;
 	height:100%;
-	cursor:pointer;
 }
 #clockSection .classbttn>div.play{
 	background:url("play_off.png") no-repeat center center;

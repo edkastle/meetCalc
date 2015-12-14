@@ -15,6 +15,10 @@ $( document ).ready(function(){
 	if(timer["timerH"].length > 0 && timer["timerM"].length > 0 && timer["timerS"].length > 0){
 		if(timer["timerH"].val() > 0 || timer["timerM"].val() > 0 || timer["timerS"].val() > 0){
 			timeing = true;
+		} else {
+			$("#timeH").html("00");
+			$("#timeM").html("00");
+			$("#timeS").html("00");
 		}
 	}
 	
@@ -30,11 +34,13 @@ $( document ).ready(function(){
 			
 			timer["timer"].val(timer["timer"].val() - (-1));
 			
-		//	var numb = Math.round((timer["wasted"].val() + timer['timer'].val() * (timer['wage'].val() / 60)) * 100) / 100;
-			var numbo = timer["wasted"].val();
-			var numb = Math.round((timer['timer'].val() * (timer['wage'].val() / 60)) * 100) / 100;
-			
-			timer["wasted"].val(numb);
+			if(timer["timer"].val() > 0){
+				var numb = Math.round((timer['timer'].val() * (timer['wage'].val() / 60)) * 100) / 100;
+				
+				timer["wasted"].val(numb);
+			} else {
+				timer["wasted"].val(0);
+			}
 			
 			if(adder == 1){
 				if(timer["timerS"].val() > 0){
